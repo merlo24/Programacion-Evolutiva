@@ -29,7 +29,7 @@ Definimos la función de Michalewickz en 2-D como función objetivo, de esta man
 <!-- $f(x_1,x_2)= -(sin(x_1) \cdot (\frac{sin(x_1^2)}{\pi})^{2m} -(sin(x_2) \cdot (\frac{sin(x_2^2)}{\pi})^{2m})$ -->
 
 ```{r, echo=F}
-knitr::include_graphics("Michalewicz.PNG")
+knitr::include_graphics("PE.PNG")
 ```
 
 que tiene un mínimo $f(x_1,x_2) = -1.8013$ en $(x_1, x_2) = (2.20, 1.57)$. Se utilizó una población de 100 individuos y 100 generaciones para alcanzar el mínimo global. La búsqueda de generación en generación para alcanzar el mínimo global se resume en la siguiente animacion,
