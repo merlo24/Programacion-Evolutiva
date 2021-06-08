@@ -34,7 +34,7 @@ Definimos la función de Michalewickz en 2-D como función objetivo, de
 esta manera el problema consiste en encontrar dentro del rango \[0, 3\]
 los valores *x*<sub>1</sub> y *x*<sub>2</sub> tal que minimizen:
 
-<!-- $ f(x_1,x_2)= -(sin(x_1) \cdot (\frac{sin(x_1^2)}{\pi})^{2m} -(sin(x_2) \cdot (\frac{sin(x_2^2)}{\pi})^{2m})$ -->
+<!-- $f(x_1,x_2)= -(sin(x_1) \cdot (\frac{sin(x_1^2)}{\pi})^{2m} -(sin(x_2) \cdot (\frac{sin(x_2^2)}{\pi})^{2m})$ -->
 
 ![](Michalewicz.PNG)<!-- -->
 
