@@ -42,8 +42,6 @@ que tiene un mínimo *f*(*x*<sub>1</sub>, *x*<sub>2</sub>) =  − 1.80
 (*x*<sub>1</sub>, *x*<sub>2</sub>) = (2.20, 1.57). Se utilizó una
 población de 100 individuos y 100 generaciones para alcanzar el mínimo
 global. La búsqueda de generación en generación para alcanzar el mínimo
-global se resume en el siguiente video,
+global se resume en la siguiente animacion,
 
-<video controls>
-<source src="animation.mp4" type="video/mp4">
-</video>
+![Alt Text](mich_pe_animation.gif)
