@@ -20,6 +20,10 @@ utilizada en el presente estudio para resolver el problema de
 optimización se llama Programación Evolutiva (PE), cuyo diagrama de
 flujo es presentado en la siguiente imagen
 
+``` r
+knitr::include_graphics("PE.PNG")
+```
+
 ![](PE.PNG)<!-- -->
 
 El propósito en este documento es implementar la PE para dar solución a
@@ -36,7 +40,11 @@ los valores *x*<sub>1</sub> y *x*<sub>2</sub> tal que minimizen:
 
 <!-- $f(x_1,x_2)= -(sin(x_1) \cdot (\frac{sin(x_1^2)}{\pi})^{2m} -(sin(x_2) \cdot (\frac{sin(x_2^2)}{\pi})^{2m})$ -->
 
-![](PE.PNG)<!-- -->
+``` r
+knitr::include_graphics("Michalewicz.PNG")
+```
+
+![](Michalewicz.PNG)<!-- -->
 
 que tiene un mínimo *f*(*x*<sub>1</sub>, *x*<sub>2</sub>) =  − 1.8013 en
 (*x*<sub>1</sub>, *x*<sub>2</sub>) = (2.20, 1.57). Se utilizó una
