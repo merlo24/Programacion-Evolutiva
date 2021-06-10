@@ -29,7 +29,7 @@ Definimos la función de Michalewickz en 2-D como función objetivo, de esta man
 <!-- $f(x_1,x_2)= -(sin(x_1) \cdot (\frac{sin(x_1^2)}{\pi})^{2m} -(sin(x_2) \cdot (\frac{sin(x_2^2)}{\pi})^{2m})$ -->
 
 ```{r, echo=T}
-knitr::include_graphics("Michalewicz.PNG")
+knitr::include_graphics("Michalewicz.png")
 ```
 
 que tiene un mínimo $f(x_1,x_2) = -1.8013$ en $(x_1, x_2) = (2.20, 1.57)$. Se utilizó una población de 100 individuos y 100 generaciones para alcanzar el mínimo global. La búsqueda de generación en generación para alcanzar el mínimo global se resume en la siguiente animacion,
@@ -42,7 +42,7 @@ Los códigos para generar la anterior animación se encuentra en la carpeta **ta
 Se desarrolla una aplicación de la PE para modelar el trazado de rayos sísmicos en la Refracción Sísmica que es uno de los métodos de la geofísica aplicada. En este método se mide el tiempo de propagación de las ondas elásticas, transcurrido entre un sitio donde se generan ondas sísmicas y la llegada de éstas a diferentes puntos de observación (geófonos) para poder determinar las velocidades correspondientes a los materiales del subsuelo, a continuación se presenta graficamente esta metodología,
 
 ```{r, echo=T}
-knitr::include_graphics("RS.PNG")
+knitr::include_graphics("RS.png")
 ```
 
 En la anterior imagen se pueden observar las velocidades ($v_1, v_2, v_3,..,v_n$) correspodientes a cada capa del subuselo, estas variarán dependiento del material que las conformen, lo cual en la imagen se puede apreciar por los cambio en la litologías (consultar litología en **Burger**). 
