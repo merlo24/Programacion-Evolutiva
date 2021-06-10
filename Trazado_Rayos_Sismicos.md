@@ -26,11 +26,11 @@ knitr::include_graphics("PE.PNG")
 
 ![](PE.PNG)<!-- -->
 
-El propósito en este documento es implementar la PE para dar solución a
-problemas de optimización. Se proporcionan funciones listas para ser
-usadas y que pueden ser modificadas con facilidad. Para ello en la
-siguiente sección definimos y encontramos el mínimo de la función de
-Michalewicz.
+El propósito en este documento es implementar la PE, acorde a Bäck y
+Schwefel (2003), para dar solución a problemas de optimización. Se
+proporcionan código listos para ser usados y que pueden ser modificados
+con facilidad. Para ello en la siguiente sección definimos y encontramos
+el mínimo de la función de Michalewicz.
 
 ## Óptimo de la función de Michalewickz
 
@@ -55,7 +55,7 @@ global se resume en la siguiente animacion,
 ![Alt Text](mich_pe_animation.gif)
 
 Los códigos para generar la anterior animación se encuentra en la
-carpeta **tal** adjunta en el presente repositorio. Se pueden modificar
+carpeta **PE** adjunta en el presente repositorio. Se pueden modificar
 de manera facil adaptandose a las necesidades del usuario.
 
 ## Aplicación en Geofísica
@@ -79,7 +79,7 @@ En la anterior imagen se pueden observar las velocidades
 (*v*<sub>1</sub>, *v*<sub>2</sub>, *v*<sub>3</sub>, .., *v*<sub>*n*</sub>)
 correspodientes a cada capa del subuselo, estas variarán dependiento del
 material que las conformen, lo cual en la imagen se puede apreciar por
-los cambio en la litologías (consultar litología en **Burger**).
+los cambio en la litologías (consultar litología en Burger (1992)).
 
 El principal objetivo en Sísmica de Refracción es estimar las
 velocidades que nos permitirá una caracterización del subsuelo,
@@ -106,10 +106,25 @@ En la animación anterior se puede apreciar la búsqueda generación tras
 generación por medio de PE del trazado de rayos sísmicos óptimos para el
 modelo de capas y velocidades correspondientes, el asterisco representa
 la fuente sísmica y los trangulos invertidos los geófonos. Los códigos
-para generar esta animacioón se encuentran en la carpeta **tal** adjunta
-al repositorio correspodiente a este documento.
+para generar esta animacioón se encuentran en la carpeta **Trazado de
+Rayos Sismicos con PE** adjunta al repositorio correspodiente a este
+documento.
 
 El propósito de esta actividad fue proporcionar una perspectiva muy
 general de la PE así como facilitar su implementación para distintas
 aplicaciones. Para una revisión a detalle de la PE, así como otras
-aplicaciones en geofísica, se recomienda consultar **cita**.
+aplicaciones en geofísica, se recomienda consultar Merlo (2017)
+disponible en el siguiente link: <http://eprints.uanl.mx/16420/>.
+
+## Referencias
+
+Bäck, T. y Schwefel, H.-P. (1993). An Overview of Evolutionary
+Algorithms for Parameter Optimization. Evol. Comput., 1:1-23.
+
+Burger, R. (1992). Exploration Geophysics of the Shallow Subsurface, New
+Jersey Prentice Hall, US, 485p.
+
+Merlo Mejía, Jorge Luis (2017) Inversión conjunta de sísmica de
+refracción y sondeos eléctricos verticales utilizando programación
+evolutiva. Maestría thesis, Universidad Autónoma de Nuevo León,
+<http://eprints.uanl.mx/16420/>.
