@@ -10,7 +10,7 @@ source('Seleccion_Torneo.R')
 m    <- 10
 fx1x2 <- function(x1,x2){-(sin(x1)*((sin((x1)^2/pi))^(2*m)))-(sin(x2)*((sin((2*(x2)^2/pi))^(2*m))))}
 
-ngeneraciones <- 80 # Aqui radica mi inquietud al generalizar para n generaciones 
+ngeneraciones <- 100 # Aqui radica mi inquietud al generalizar para n generaciones 
 nind <- 100
 nvar <- 2
 xmin <- 0
